@@ -1,8 +1,5 @@
-package com.aleksandr0412;
+package com.aleksandr0412.factory;
 
-import com.aleksandr0412.factory.Economy;
-import com.aleksandr0412.factory.Jeep;
-import com.aleksandr0412.factory.Lux;
 import com.aleksandr0412.factory.bmv.BmvFactory;
 import com.aleksandr0412.factory.lada.LadaFactory;
 import com.aleksandr0412.factory.pegeot.PegeotFactory;
