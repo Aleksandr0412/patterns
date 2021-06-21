@@ -1,4 +1,4 @@
-package com.aleksandr0412;
+package com.aleksandr0412.factory;
 
 import com.aleksandr0412.factory.Economy;
 import com.aleksandr0412.factory.Jeep;
