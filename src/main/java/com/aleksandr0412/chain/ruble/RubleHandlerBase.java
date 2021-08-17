@@ -1,13 +1,13 @@
-package com.aleksandr0412.chain.dollar;
+package com.aleksandr0412.chain.ruble;
 
 import com.aleksandr0412.chain.banknote.BanknoteHandler;
 import com.aleksandr0412.chain.banknote.CurrencyType;
 
-public abstract class DollarHandlerBase extends BanknoteHandler {
+public abstract class RubleHandlerBase extends BanknoteHandler {
 
-    protected CurrencyType type = CurrencyType.USD;
+    protected CurrencyType type = CurrencyType.RUB;
 
-    protected DollarHandlerBase(BanknoteHandler nextHandler) {
+    protected RubleHandlerBase(BanknoteHandler nextHandler) {
         super(nextHandler);
     }
 
@@ -15,5 +15,6 @@ public abstract class DollarHandlerBase extends BanknoteHandler {
     protected CurrencyType getCurrencyType() {
         return type;
     }
-
 }
+
+

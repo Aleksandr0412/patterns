@@ -1,12 +1,12 @@
-package com.aleksandr0412.chain.dollar;
+package com.aleksandr0412.chain.ruble;
 
 import com.aleksandr0412.chain.banknote.BanknoteHandler;
 
-public class HundredDollarHandler extends DollarHandlerBase {
+public class OneHundredRubleHandler extends RubleHandlerBase {
 
     private final int value = 100;
 
-    public HundredDollarHandler(BanknoteHandler nextHandler) {
+    public OneHundredRubleHandler(BanknoteHandler nextHandler) {
         super(nextHandler);
     }
 
@@ -14,4 +14,5 @@ public class HundredDollarHandler extends DollarHandlerBase {
     protected int getValue() {
         return value;
     }
+
 }
